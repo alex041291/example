@@ -1,0 +1,5 @@
+AuthType Basic 
+AuthName "please authenticate to view the page" 
+AuthUserFile /app/www/.htpasswd
+AuthPGAuthoritative Off
+require user  test
