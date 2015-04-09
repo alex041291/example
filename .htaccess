@@ -1,5 +1,5 @@
 AuthType Basic 
 AuthName "please authenticate to view the page" 
-AuthUserFile /.htpasswd
+AuthUserFile /app/.htpasswd
 AuthPGAuthoritative Off
 require user  test
