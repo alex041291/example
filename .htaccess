@@ -1,5 +1,4 @@
-AuthType Basic 
-AuthName "please authenticate to view the page" 
-AuthUserFile /app/.htpasswd
-AuthPGAuthoritative Off
-require user  test
+AuthUserFile /app/www/.htpasswd
+AuthType Basic
+AuthName "Restricted Access"
+Require test
