@@ -1,4 +1,4 @@
-AuthUserFile /app/www/.htpasswd
-AuthType Basic
-AuthName "Restricted Access"
-Require test
+#AuthUserFile /app/www/.htpasswd
+#AuthType Basic
+#AuthName "Restricted Access"
+#Require test
