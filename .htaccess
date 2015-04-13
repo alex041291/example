@@ -1,4 +1,4 @@
 AuthUserFile /app/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
-Require test
+Require valid-user
