@@ -1,3 +1,1 @@
-<?php
-
-echo "hello World";
+<?php include_once("testfile.html"); ?>
